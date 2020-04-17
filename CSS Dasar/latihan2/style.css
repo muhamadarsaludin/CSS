@@ -1,0 +1,14 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+/* body{font-style font-fariant font-weigh font-size/line-heigh font-family */
+ body{
+    font:  italic normal bold 16px/18px helvetica,arial,sans-serif;
+ }

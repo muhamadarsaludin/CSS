@@ -1,0 +1,32 @@
+.kotak1 {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin: auto;
+}
+
+.kotak2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    margin: auto;
+}
+
+.kotak3 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: auto;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    padding: 5px;
+    border: 2px solid;
+    margin: auto;
+    position: relative;
+}

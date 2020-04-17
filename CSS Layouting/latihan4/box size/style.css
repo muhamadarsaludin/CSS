@@ -1,0 +1,16 @@
+p{
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.satu{
+    background-color: lightblue;
+    padding: 10px;
+    border: 5px solid red;
+}
+.dua{
+    background-color: lightgreen;
+    padding: 10px;
+    border: 10px dashed blue;
+}

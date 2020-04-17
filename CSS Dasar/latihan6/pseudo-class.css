@@ -1,0 +1,28 @@
+.hello {
+    color: orange;
+}
+.hello:hover{
+    color: green;
+    font-family: arial;
+    font-size: 25px;
+}
+.hello:active{
+    color: rgba(10, 204, 97, 0.986);
+}
+.hello:visited{
+    color: skyblue;
+}
+
+li:first-child a{
+    color: green;
+}
+li:last-child a{
+    color: rgb(0, 110, 255);
+}
+li:nth-child(odd) a{
+    color: black;
+}
+
+p:last-of-type{
+    color: red;
+}

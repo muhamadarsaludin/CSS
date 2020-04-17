@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radial Gradient</title>
+    <style>
+        nav {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+            /* 1. radial-gradient(warna awal, warna akhir) */
+            /* 2. radial-gradient(warna1, warna2,..., warna-n) "multiple color" */
+            /* 3. radial-gradient(warna1 60%, warna2 80%,..., warna-n) "color stop" */
+            /* 4. radial-gradient(tipe jangkauan at posisi-y posisi-x, warna1 %, warna2 %,..., warna-n) "sintaks lengkap" */
+            /* tipe = 1.ellipse 2.circle */
+
+            /* ---------------------------------sintaks--------------------------------------- */
+            /* background-image: radial-gradient(red, blue); */
+            /* background-image: radial-gradient(red, green, blue); */
+            /* background-image: radial-gradient(red 10%, green 20%, blue); */
+            /* background-image: radial-gradient(circle, red 10%, green 20%, blue 80%); */
+            background-image: radial-gradient(circle farthest-side at top left, red, blue);
+            /* ------------------------------------------------------------------------------- */
+
+            /* 1. closest-corner : "sudut terdekat" */
+            /* 2. farthest-corner: "sudut terjauh" */
+            /* 3. closest-side : "sisi terdekat" */
+            /* 4. farthest-side : "sisi terjauh" */
+            /* y : top, bottom, center | x : left, right, center " posisi pusat gradient */
+        }
+    </style>
+</head>
+
+<body>
+    <nav></nav>
+</body>
+
+</html>
